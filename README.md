@@ -1,43 +1,35 @@
-# Ebalkalmazás
-Alk. fejl. beadandó Episode I: Baljós Árnyak (mert valamiért Herokun nem megy)
+# Ebalkalmazás megvalósítása Ember JS és REST Api használatával
+Alk. fejl. beadandó Episode III: A vizsgaidőszak bosszúja
 
 ## Követelményanalízis
 
-1. Követelmények összegyűjtése: a nyújtandó szolgáltatások ismertetése rövid, szöveges leírásként, sokszor felsorolásként jelenik meg.
+1. Követelmények összegyűjtése:
  * Funkcionális elvárások:
-    * be lehessen jelentkezni az oldalra
-    * legyen lehetőség új felhasználó regisztrációjára
+    * lehessen listázni az eseményeket
     * lehessen listázni a kutyákat
-    * lehessen listázni az eseményeket bejelentkezett felhasználóként
-    * lehessen új eseményt rögzíteni már létező kutyához bejelentkezett felhasználóként
-    * lehessen bejelentkezett felhasználónak kutyát törölni
-    * lehessen bejelentkezett felhasználónak kutyát szerkeszteni
+    * lehessen új kutyát létrehozni
+    * lehessen új eseményt rögzíteni már létező kutyához
+    * lehessen eseményt törölni
+    * lehessen eseményt szerkeszteni
  * Nem funkcionális követelmények
     * tartalmazzon két modellt, egy-sok kapcsolatban
-    * perzisztálás fájlba történjen
+    * perzisztálás fájlba, vagy adatbázisba történjen
 2. Használatieset-modell
   * Szerepkörök: 
-    * látogató, olyan user, aki még nem jelentkezett be és/vagy nem regisztrált
-    * felhasználó, aki már regisztrált és/vagy bejelentkezett
+    * látogató, aki az oldalra tévedt
   * Használati eset diagram:
   * ![use case diagram](docs/usecase.jpg)
   * Folyamatok menete:
-    * kutya rögzítése/szerkesztése
+    * kutya/esemény rögzítése
     * lépések
-      1. a bejelentkezett felhasználó kilistázza a kutyákat
-      2. kiválasztja a kutyát szerkesztésre
-      3. a weboldal megjeleníti a szükséges szerkesztőfelületet
-      4. a felhasználó módosítja a kívánt mezőket
-      5. megnyomja a rögzítés gombot
-      8. a rendszer elmenti a változtatásokat
-    * kutya megjelenítése / esemény rögzítése
+      1. a látogató az új kutya/esemény gombra kattint
+      2. a weboldal megjeleníti a szükséges szerkesztőfelületet
+      3. a felhasználó módosítja a kívánt mezőket
+      4. megnyomja a rögzítés gombot
+      5. a rendszer elmenti a változtatásokat
+    * kutya/esemény megjelenítése
     * lépések
-      1. a bejelentkezett felhasználó kilistázza a kutyákat
-      2. kiválasztja a kutyát
-      3. a weboldal megjeleníti az adott kutyához tartozó lapot, és a szerkesztőmezőket
-      4. a felhasználó feltölti adatokkal a kívánt mezőket
-      5. megnyomja a rögzítés gombot
-      8. a rendszer elmenti a változtatásokat
+      1. a látogató a Kutyatár / Események gombra kattint
 
 ## Tervezés
 
@@ -49,24 +41,15 @@ Alk. fejl. beadandó Episode I: Baljós Árnyak (mert valamiért Herokun nem meg
 
 - Főoldal
 - Kutyák listázása
-- Belépés/Kilépés
-
-##### Felhasználó
-
-- Főoldal
-- Kutyák listázása
-   + kutya szerkesztése
-     + új esemény rögzítése
-   + kutya törlése
-   + kutya rögzítése
 - Események listázása
-- Belépés/Kilépés
+  + esemény szerkesztése
+  + esemény törlése
+- Új kutya rögzítése
+- Új esemény rögzítése
   
 #### Végpontok
 
   * GET /: főoldal
-  * GET /login: bejelentkező oldal
-  * POST /login: bejelentkezési adatok felküldése
   * GET /dogs/list: kutyák listázása
   * GET /dogs/new: új kutya rögzítése
   * POST /dogs/new: új kutya rögzítése, adatok felküldése
