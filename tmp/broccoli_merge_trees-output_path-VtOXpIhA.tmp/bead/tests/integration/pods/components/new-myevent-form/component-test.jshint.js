@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/broccoli_merge_trees-input_base_path-8x2h9oyL.tmp/6/bead/tests/integration/pods/components/new-myevent-form/component-test.jshint.js

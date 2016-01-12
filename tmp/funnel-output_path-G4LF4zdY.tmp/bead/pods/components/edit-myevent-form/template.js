@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/template_compiler-tmp_dest_dir-tJwLRhcA.tmp/bead/pods/components/edit-myevent-form/template.js

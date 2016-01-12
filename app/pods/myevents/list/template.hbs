@@ -1,0 +1,11 @@
+<div class="page-header">
+  <div class="row">
+    <div class="col-lg-8 col-md-7 col-sm-6">
+      <h1>Eseménynapló</h1>
+    </div>
+  </div>
+</div>
+
+{{myevent-list myevents=model}}
+
+<p>{{link-to "Új esemény regisztrálása" "myevents.new" class="btn btn-default"}}</p>

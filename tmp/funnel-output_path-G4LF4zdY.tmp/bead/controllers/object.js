@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/babel-output_path-NK4O2gZQ.tmp/bead/controllers/object.js

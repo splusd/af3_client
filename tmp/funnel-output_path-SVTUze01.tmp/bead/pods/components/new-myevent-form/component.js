@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/babel-output_path-jmq07Rnh.tmp/bead/pods/components/new-myevent-form/component.js

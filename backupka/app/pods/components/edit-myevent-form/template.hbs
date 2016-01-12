@@ -1,0 +1,36 @@
+<form class="form-horizontal" method="post">
+    <fieldset>
+        <div class="form-group {{if myevents.desc "has-error"}}">
+            <label for="desc" class="col-lg-2 control-label">Esemény</label>
+            <div class="col-lg-10">
+                <textarea class="form-control" rows="3" id="desc" placeholder="például oltás, chip"  name="desc">{{data.desc}}</textarea>
+                <span class="help-block">Az esemény rövid leírása</span>
+            </div>
+        </div>
+        
+        <div class="form-group {{if myevents.happened "has-error"}}">
+            <label for="happened" class="col-lg-2 control-label">Dátum</label>
+            <div class="col-lg-10">
+                <input class="form-control" id="happened" name="happened" type="text" value="{{data.happened}}">
+                <span class="help-block">Az esemény dátuma</span>
+            </div>
+        </div>
+        
+        <div class="form-group {{if myevents.supervisor "has-error"}}">
+            <label for="supervisor" class="col-lg-2 control-label">Felügyelő</label>
+            <div class="col-lg-10">
+                <input class="form-control" id="supervisor" name="supervisor" type="text" value="{{data.supervisor}}">
+                <span class="help-block">Kutyához kirendelt felügyelő</span>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="reset" class="btn btn-default">Mezők törlése</button>
+                <button {{action "submit"}} class="btn btn-primary">Módosít</button>
+            </div>
+        </div>
+    </fieldset>
+</form>        
+
+

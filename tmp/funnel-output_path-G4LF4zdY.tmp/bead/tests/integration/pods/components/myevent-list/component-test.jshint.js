@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/jshinter-output_path-QpyxZeE1.tmp/integration/pods/components/myevent-list/component-test.jshint.js

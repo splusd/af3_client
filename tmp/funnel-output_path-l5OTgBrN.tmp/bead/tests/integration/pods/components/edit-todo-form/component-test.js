@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/bead/tmp/babel-output_path-U7S751tT.tmp/bead/tests/integration/pods/components/edit-todo-form/component-test.js

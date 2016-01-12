@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/bead/tmp/funnel-input_base_path-fec0Hsay.tmp/0/bower_components/ember-cli-test-loader/test-loader.js

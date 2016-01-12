@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/jshinter-output_path-JoGfxvgl.tmp/unit/pods/myevents/edit/route-test.jshint.js

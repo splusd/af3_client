@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/babel-output_path-L7Z4DbiP.tmp/bead/tests/integration/pods/components/dog-list/component-test.js

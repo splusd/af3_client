@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/bead/tmp/funnel-input_base_path-clJRRFZD.tmp/0/vendor-prefix.js

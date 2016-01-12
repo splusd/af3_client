@@ -1,0 +1,27 @@
+<table class="table table-striped table-hover ">
+    <thead>
+        <tr>
+            <th>Becenév</th>
+            <th>Fajta</th>
+            <th>Nem</th>
+            <th>Kor</th>
+            <th>Behozás dátuma</th>
+            <th>Behozó</th>
+        </tr>   
+    </thead>
+    <tbody>
+
+        {{#each dogs}}
+        <tr>
+            {{!--{{log this}}--}}
+            <td>{{nickname}}</td>
+            <td>{{breed}}</td>
+            <td>{{gender}}</td>
+            <td>{{age}}</td>
+            <td>{{broughtin}}</td>
+            <td>{{broughtby}}</td>
+        </tr>
+        {{/each}}
+
+    </tbody>
+</table>

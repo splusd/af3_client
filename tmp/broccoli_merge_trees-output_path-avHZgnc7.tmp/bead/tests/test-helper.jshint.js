@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/jshinter-output_path-QpyxZeE1.tmp/test-helper.jshint.js

@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/bead/tmp/template_compiler-tmp_cache_dir-SLankVD0.tmp/0

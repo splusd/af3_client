@@ -1,0 +1,28 @@
+<table class="table table-striped table-hover ">
+    <thead>
+        <tr>
+            <th>Kutya</th>
+            <th>Esemény</th>
+            <th>Dátum</th>
+            <th>Felügyelő</th>
+            <th>Funkciók</th>
+        </tr>   
+    </thead>
+    <tbody>
+
+        {{#each myevents}}
+        <tr>
+            {{!--{{log this}}--}}
+            <td>{{dog.nickname}}</td>
+            <td>{{desc}}</td>
+            <td>{{happened}}</td>
+            <td>{{supervisor}}</td>
+            <td>
+                {{link-to "Szerkeszt" "myevents.edit" this class="btn btn-primary btn-sm edit-gomb"}}
+                <button {{action "deleteMyEvent" this}} class="btn btn-danger btn-sm torles-gomb">Töröl</button>
+            </td>
+        </tr>
+        {{/each}}
+
+    </tbody>
+</table>

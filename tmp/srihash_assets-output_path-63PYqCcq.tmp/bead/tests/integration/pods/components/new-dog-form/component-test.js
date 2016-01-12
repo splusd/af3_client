@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/srihash_assets-input_base_path-95IcFPvw.tmp/0/bead/tests/integration/pods/components/new-dog-form/component-test.js

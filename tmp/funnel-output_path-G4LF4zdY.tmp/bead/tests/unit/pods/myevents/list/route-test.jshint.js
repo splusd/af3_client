@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/jshinter-output_path-QpyxZeE1.tmp/unit/pods/myevents/list/route-test.jshint.js

@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/jshinter-output_path-JoGfxvgl.tmp/integration/pods/components/new-myevent-form/component-test.jshint.js

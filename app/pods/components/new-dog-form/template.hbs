@@ -1,0 +1,54 @@
+<form class="form-horizontal" method="post">
+    <fieldset>
+        <div class="form-group {{if dogs.nickname "has-error"}}">
+            <label for="nickname" class="col-lg-2 control-label">Becenév</label>
+            <div class="col-lg-10">
+                <input class="form-control" type="text" id="nickname" placeholder="Yoda" name="nickname" value="{{data.nickname}}">
+                <span class="help-block">Amire a kutya hallgat. Ha nem ismert, akkor lehetőleg egyedülálló nevet adj meg.</span>
+                {{#if dogs.nickname}}
+                    <span class="help-block">Kötelező mező!</span>
+                {{/if}}
+                <div class="help-block with-errors"></div>
+            </div>
+
+        </div>
+        <div class="form-group {{if dogs.breed "has-error"}}">
+            <label for="breed" class="col-lg-2 control-label">Fajta</label>
+            <div class="col-lg-10">
+                <input class="form-control" type="text" id="breed" placeholder="mopsz" name="breed" value="{{data.breed}}">
+            </div>
+        </div>
+                <div class="form-group {{if dogs.gender "has-error"}}">
+            <label for="gender" class="col-lg-2 control-label">Nem</label>
+            <div class="col-lg-10">
+                <input class="form-control" type="text" id="gender" placeholder="kan v szuka" name="gender" value="{{data.gender}}">
+            </div>
+        </div>
+                <div class="form-group {{if dogs.age "has-error"}}">
+            <label for="age" class="col-lg-2 control-label">Kor</label>
+            <div class="col-lg-10">
+                <input class="form-control" type="text" id="age" placeholder="1000 éves" name="age" value="{{data.age}}">
+            </div>
+        </div>
+                <div class="form-group {{if dogs.broughtin "has-error"}}">
+            <label for="broughtin" class="col-lg-2 control-label">Behozás dátuma</label>
+            <div class="col-lg-10">
+                <input class="form-control" type="text" id="broughtin" placeholder="2015-01-02" name="broughtin" value="{{data.broughtin}}">
+            </div>
+        </div>
+                <div class="form-group {{if dogs.broughtby "has-error"}}">
+            <label for="broughtby" class="col-lg-2 control-label">Behozó</label>
+            <div class="col-lg-10">
+                <input class="form-control" type="text" id="broughtby" placeholder="Dévényi Tibi bácsi" name="broughtby" value="{{data.broughtby}}">
+            </div>
+        </div>
+        
+        
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="reset" class="btn btn-default">Visszaállít</button>
+                <button {{action "submit"}} class="btn btn-primary">Regisztrál</button>
+            </div>
+        </div>
+    </fieldset>
+</form>

@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/broccoli_merge_trees-input_base_path-sx8oV04c.tmp/1/assets/bead.js

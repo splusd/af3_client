@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/bead/tmp/funnel-input_base_path-hZpclZz8.tmp/0/bead/tests/pods/components/todo-list/component.jshint.js

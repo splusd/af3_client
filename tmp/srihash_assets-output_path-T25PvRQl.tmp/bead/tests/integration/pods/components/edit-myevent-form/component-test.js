@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/srihash_assets-input_base_path-EjxzFSrX.tmp/0/bead/tests/integration/pods/components/edit-myevent-form/component-test.js

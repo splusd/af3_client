@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/funnel-input_base_path-VFT9wmdt.tmp/0/bead/tests/pods/components/new-myevent-form/component.jshint.js
