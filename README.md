@@ -58,7 +58,7 @@ A formai követelményeknek megfelelően kell elkészíteni, dokumentálni és k
 
 ##Tervezés
 
-###Architektúra terv
+###1. Architektúra terv
 ####Oldaltérkép:
 - főoldal
 - kutyatár
@@ -77,7 +77,6 @@ A formai követelményeknek megfelelően kell elkészíteni, dokumentálni és k
 * /myevents/new: új esemény hozzáadása
 * /myevents/edit/:id: esemény szerkesztése
 
-### 1. Architektúra terv
 
 ### 2. Felhasználóifelület-modell
 ![főoldal](docs/img/basic.jpg)
