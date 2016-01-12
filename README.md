@@ -36,16 +36,15 @@ Alk. fejl. beadandó Episode III: A vizsgaidőszak bosszúja
 ### 1. Architektúra terv
 
 #### Oldaltérkép
-
-##### Látogató
-
-- Főoldal
-- Kutyák listázása
-- Események listázása
-  + esemény szerkesztése
-  + esemény törlése
-- Új kutya rögzítése
-- Új esemény rögzítése
+- főoldal
+- kutyatár
+- eseménynapló
+  * szerkesztés
+  * törlés
+  * új
+- új kutya
+- új esemény
+- 
   
 #### Végpontok
 
